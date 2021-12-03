@@ -39,6 +39,4 @@ workflows:
       - package:
           requires:
             - build_and_test
-      - deploy:
-          requires:
-            - package
+
